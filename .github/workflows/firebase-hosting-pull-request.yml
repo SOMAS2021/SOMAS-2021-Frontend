@@ -20,3 +20,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SOMAS_PLATFORM }}'
           projectId: somas-platform
+          entryPoint: "./website"

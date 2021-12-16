@@ -23,3 +23,4 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SOMAS_PLATFORM }}'
           channelId: live
           projectId: somas-platform
+          entryPoint: "./website"
