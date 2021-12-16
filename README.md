@@ -17,3 +17,6 @@ e.g. git branch logger creates new brnch named logger
 
 - run website on your local (should open website on google chrome/ web browser)
 ### `npm run start`
+
+- For working on this repo using VSCode some extensions are useful i.e., Prettier - Code Formatter, ES7 React/Redux/GraphQL/React-Native snippets & React Native Tools
+
