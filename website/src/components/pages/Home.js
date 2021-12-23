@@ -4,12 +4,12 @@ import Hero from '../Hero';
 import Footer from './Footer';
 
 function Home() {
-    return (
-        <>
-            <Hero/>
-            <Footer/>
-        </>
-    );
+  return (
+    <>
+      <Hero />
+      <Footer />
+    </>
+  );
 }
 
 export default Home;
