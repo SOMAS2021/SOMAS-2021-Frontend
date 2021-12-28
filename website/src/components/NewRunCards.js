@@ -1,14 +1,4 @@
-import React, { useState, useEffect } from 'react'
-import {
-  Alert,
-  Button,
-  Row,
-  Col,
-  OverlayTrigger,
-  Tooltip,
-  Form,
-} from 'react-bootstrap'
-import { RunGameReturnType, Flag } from '../../wasmAPI'
+import React/*, { useState, useEffect }*/ from 'react'
 import '../style/Cards.css';
 //import img1 from '../images/platform7.JPG';
 //import img2 from '../images/platform4.jpg';
