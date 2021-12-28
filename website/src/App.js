@@ -3,6 +3,9 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
+import About from './components/pages/About';
+import NewRun from './components/pages/NewRun';
+import Visualisations from './components/pages/Visualisations';
 
 function App() {
   return (
@@ -11,6 +14,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/NewRun" element={<NewRun />} />
+          <Route path="/Visualisations" element={<Visualisations />} />
         </Routes>
       </Router>
     </>
