@@ -1,6 +1,15 @@
 import React from 'react'
 import'../../App.css'
+import AboutCards from '../AboutCards'
 
-export default function About() {
-    return <h1 className='about'>ABOUT</h1>;
+function About() {
+    return (
+        <div>
+           <h1 className='about'>ABOUT SOMAS 2021</h1>;
+            <AboutCards />
+        </div>
+    );
 }
+
+export default About
+

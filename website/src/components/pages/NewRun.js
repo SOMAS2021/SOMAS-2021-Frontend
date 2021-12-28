@@ -1,7 +1,20 @@
 import React from 'react'
 import'../../App.css'
+import NewRunCards from '../NewRunCards'
+//import { runButton } from '../Button';
 
-export default function NewRun() {
-    return <h1 className='NewRun'>New Run</h1>;
+
+function NewRun() {
+    return (
+        <div>
+            <h1 className='NewRun'>New Run</h1>
+            
+            <NewRunCards />
+        </div>
+    );
 }
+
+export default NewRun
+
+
 
