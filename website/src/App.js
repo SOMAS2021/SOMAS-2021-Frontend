@@ -8,7 +8,8 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
+        {/* navbar doesnt appear on all pages */}
+        {/* <Navbar /> */}
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
