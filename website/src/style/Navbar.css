@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: sticky;
+  position: relative;
   top: 0;
   z-index: 999;
 }
@@ -34,6 +34,9 @@
   font-size: 1.8rem;
 }
 
+.devicon-electron-original{
+  color: #d4af37;
+}
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
@@ -50,7 +53,7 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: #d4af37;
   display: flex;
   align-items: center;
   text-decoration: none;
