@@ -1,6 +1,7 @@
 .cards {
     padding: 4rem;
-    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    color: #fff;
   }
   
   h1 {
@@ -56,7 +57,7 @@
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    box-shadow: 0 6px 20px black;
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
@@ -86,7 +87,7 @@
     font-size: 12px;
     font-weight: 700;
     color: rgb(255, 255, 255);
-    background-color: #1e88da;
+    background-color: #d4af37;;
     box-sizing: border-box;
   }
   
@@ -116,7 +117,7 @@
   
   .cards__item__text {
     padding-top: 40px;
-    color: #223675;
+    color: #d4af37;
     font-size: 18px;
     line-height: 20px;
   }
