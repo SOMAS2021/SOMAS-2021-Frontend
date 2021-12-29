@@ -5,21 +5,27 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.home,
-.about,
-.new-run,
-.ci-output,
-.visualisations {
+.home{
   display: flex;
   height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
 }
-/* /Users/seth/Documents/GitHub/SOMAS-2021-Frontend/website/public/images/img-1.jpg
-website/public/images/img-2.jpg */
+.about,
+.NewRun,
+.ci-output,
+.Visualisations {
+  display: flex;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+
 .about {
-  background-image: url('./images/img-1.jpg');
+  background-image: url('./images/img-6.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,17 +33,17 @@ website/public/images/img-2.jpg */
   font-size: 100px;
 }
 
-.new-run {
-  /* background-image: url('../public/images/img-2.jpg'); */
+.NewRun {
+  background-image: url('./images/platform.jpg');
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
 }
 
 .ci-output {
-  /* background-image: url('../public/images/img-8.jpg'); */
+  background-image: url('./images/img-8.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,8 +51,8 @@ website/public/images/img-2.jpg */
   font-size: 100px;
 }
 
-.visualisations {
-  /* background-image: url('../public/images/img-8.jpg'); */
+.Visualisations {
+  background-image: url('./images/platform6.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

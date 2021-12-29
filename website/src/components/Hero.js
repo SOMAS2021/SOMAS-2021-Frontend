@@ -3,7 +3,6 @@ import '../App.css';
 import '../style/Hero.css';
 import { Button } from '../components/Button';
 import Modal from './Modal';
-import Video from '../videos/platform2.mov';
 
 function Hero() {
   const [modal, setModal] = useState(false);
