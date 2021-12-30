@@ -1,7 +1,6 @@
 import React from 'react';
 /*import CardItem from './CardItem';*/
 import '../style/Cards.css';
-import AgentTable from './AgentTable'
 import InfoTabs from './InfoTabs';
 
 
@@ -9,8 +8,7 @@ import InfoTabs from './InfoTabs';
 function AboutCards() {
     return (
         <div  className='cards'>
-            <h1> More on Problem Defintion</h1>
-            <h2>The Tower</h2>
+            <h1> The Tower</h1>
             <p>The Tower is a vast monolith that is divided into floors. There is a top floor called the Kitchen,
             and then a series of Floors, numbered from Floor 1 onwards, and downwards. Is there a bottom level? 
             No one knows this either, or at least no one has ever reported there not being a level below them.
@@ -24,8 +22,21 @@ function AboutCards() {
             which the Residents on that floor may eat as much as they like from the food available, but they may
             not save any.
             </p>
+            
+            <h3>Agent Systems</h3>
+
             <p>
-            All they know is that on any one day there is not enough food to satiate (satisfy maximally) everyone,
+            They are 6 differnet agent teams, which all exhibit different behaviours. Hence, 6 different agent types.
+            There is also the MVP agent type and the selfish agent type.
+            ....
+            </p>
+            
+            <InfoTabs />
+
+            <h3>Rules of System</h3>
+
+            <p>
+            All the Residents know is that on any one day there is not enough food to satiate (satisfy maximally) everyone,
             nor indeed enough food to satisfice (satisfy minimally) on any one day; however, there would be enough 
             food over a period of time to satisfice everyone. If a Resident does not get enough food over a certain 
             duration, she is eliminated, and immediately replaced by a new resident.
@@ -38,21 +49,6 @@ function AboutCards() {
             The objective of the Residents: to “win”, individually, by maximising their individual “utility”, and to
             “survive”, collectively, by minimising the number of replacements.
             </p>
-            <h3>Agent Systems</h3>
-
-            <p>
-            They are 6 differnet agent teams, which all exhibit different behaviours. Hence, 6 different agent types.
-            There is also the MVP agent type and the selfish agent type.
-            ....
-            </p>
-            
-            <InfoTabs />
-
-            
-            
-            <div style={{ paddingLeft: 100 , paddingTop: 30, paddingRight: 100}}>
-                <AgentTable />
-            </div>
             
         </div>
     );
