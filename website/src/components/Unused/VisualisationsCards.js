@@ -1,5 +1,5 @@
 import React from 'react';
-import CardItem from './CardItem';
+import CardItem from '../CardItem';
 import '../style/Cards.css';
 import img1 from '../images/img-1.jpg';
 import img2 from '../images/img-2.jpg';

@@ -5,6 +5,8 @@ import Footer from './Footer';
 import '../../style/Home.css';
 import Navbar from '../Navbar';
 import Cards from '../Cards';
+import About from './About';
+import NewRun from './NewRun';
 
 
 function Home() {
@@ -13,6 +15,8 @@ function Home() {
       <Navbar/>
       <Hero />
       <Cards />
+      <About />
+      <NewRun />
       <Footer />
     </div>
   );

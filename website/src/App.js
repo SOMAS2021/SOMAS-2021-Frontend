@@ -2,9 +2,6 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
-import About from './components/pages/About';
-import NewRun from './components/pages/NewRun';
-import Visualisations from './components/pages/Visualisations';
 
 function App() {
   return (
@@ -14,9 +11,9 @@ function App() {
         {/* <Navbar /> */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/NewRun" element={<NewRun />} />
-          <Route path="/Visualisations" element={<Visualisations />} />
+          <Route path="/About" element={<Home />} />
+          <Route path="/NewRun" element={<Home />} />
+          <Route path="/Visualisations" element={<Home />} />
         </Routes>
       </Router>
     </>

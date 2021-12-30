@@ -2,6 +2,8 @@ import React from 'react';
 /*import CardItem from './CardItem';*/
 import '../style/Cards.css';
 import AgentTable from './AgentTable'
+import InfoTabs from './InfoTabs';
+
 
 
 function AboutCards() {
@@ -36,26 +38,22 @@ function AboutCards() {
             The objective of the Residents: to “win”, individually, by maximising their individual “utility”, and to
             “survive”, collectively, by minimising the number of replacements.
             </p>
-
-            <h2>Agent Systems</h2>
+            <h3>Agent Systems</h3>
 
             <p>
             They are 6 differnet agent teams, which all exhibit different behaviours. Hence, 6 different agent types.
             There is also the MVP agent type and the selfish agent type.
             ....
             </p>
+            
+            <InfoTabs />
+
+            
+            
             <div style={{ paddingLeft: 100 , paddingTop: 30, paddingRight: 100}}>
                 <AgentTable />
             </div>
-            <h2>How to play</h2>
-
-            <p>
-            Click New Run along the top navigation bar. Here, you can choose to run the game with the default flags, 
-            or you can customize the game by changing the flags. Click to run the game. From here, you can either download 
-            the outputs or click Visualise and explore different diagrams showing the progression of the game ran. The CI Output 
-            (continuous integration output) tab gives the automated outputs of the run generated from our code. The Visualisation 
-            tab will display the results of your own runs and it will persist your visualisations until you visualise a new game.
-            </p>
+            
         </div>
     );
 }

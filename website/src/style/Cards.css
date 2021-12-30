@@ -1,10 +1,11 @@
 .cards {
     padding: 4rem;
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background: linear-gradient(90deg, rgb(70, 19, 19) 0%,rgb(109, 102, 102) ,rgb(109, 102, 102) ,rgb(70, 19, 19) 100%);
     color: #fff;
   }
   
   h1 {
+    color: #d4af37;
     text-align: center;
     /*text-decoration-line: underline*/
   }
@@ -16,6 +17,7 @@
   }
 
   h3 {
+    color: #d4af37;
     text-align: center;
     padding-top: 30px;
     font-size: 30px;
@@ -39,7 +41,7 @@
   
   .cards__wrapper {
     position: relative;
-    margin: 50px 0 45px;
+    margin: 25px 0 45px;
   }
   
   .cards__items {
@@ -87,10 +89,10 @@
     font-size: 12px;
     font-weight: 700;
     color: rgb(255, 255, 255);
-    background-color: #d4af37;;
+    background-color: #d4af37;
     box-sizing: border-box;
   }
-  
+    
   .cards__item__img {
     position: absolute;
     top: 0;
@@ -117,7 +119,7 @@
   
   .cards__item__text {
     padding-top: 40px;
-    color: #d4af37;
+    color: rgb(255, 255, 255);
     font-size: 18px;
     line-height: 20px;
   }

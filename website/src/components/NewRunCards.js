@@ -1,21 +1,19 @@
 import React/*, { useState, useEffect }*/ from 'react'
 import '../style/Cards.css';
-//import img1 from '../images/platform7.JPG';
-//import img2 from '../images/platform4.jpg';
-//import img3 from '../images/platform6.jpg';
-
-
+import Button from '@mui/material/Button';
 
 function NewRunCards() {
     return (
         <div  className='cards'>
-            <h1> Parmaterisation</h1>
-            <p>In the below section please enter in your parematers for the run time.</p>
+            <h3> Try it for Yourself!</h3>
             
+            <p>Press the button below to try it for yourself. View past simulations and visualise your results.</p>
             
-            
+            <h1> <Button variant="contained"  color="success" size="large">Run it Yourself!</Button></h1>
+
             
         </div>
+        
     );
 }
 
