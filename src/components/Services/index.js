@@ -1,7 +1,7 @@
 import React from 'react';
-import Icon1 from '../../images/svg-1.svg';
-import Icon2 from '../../images/svg-3.svg';
-import Icon3 from '../../images/svg-5.svg';
+import Icon3 from '../../images/platform.jpg';
+import Icon2 from '../../images/platform4.jpg';
+import Icon1 from '../../images/platform7.JPG';
 import {
   ServicesContainer,
   ServicesH1,
@@ -9,37 +9,44 @@ import {
   ServicesCard,
   ServicesIcon,
   ServicesH2,
+  //ServicesH3,
   ServicesP
 } from './ServicesElements';
+
 
 const Services = () => {
   return (
     <ServicesContainer id='services'>
-      <ServicesH1>Our Services</ServicesH1>
+      <ServicesH1>Problem Breakdown</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>Reduce Expenses</ServicesH2>
+          <ServicesH2>The Tower</ServicesH2>
           <ServicesP>
-            We help reduce your fees and increase your overall revenue.
+            Rules and Design of the Tower itself, which the Agents find themselves in.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>Virtual Offices</ServicesH2>
+          <ServicesH2>Agent Types</ServicesH2>
           <ServicesP>
-            You can access our platform online anywhere in the world.
+            All the different types of implemented Agents avaliable to enter the tower.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>Premium Benefits</ServicesH2>
+          <ServicesH2>The System</ServicesH2>
           <ServicesP>
-            Unlock our special membership card that returns 5% cash back.
+            Different functions within system, including Communication, Health Decay, Treaties and more.
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
+      
+
+
     </ServicesContainer>
+
+
   );
 };
 

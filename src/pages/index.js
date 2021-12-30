@@ -4,10 +4,13 @@ import Sidebar from '../components/Sidebar';
 import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
+import InfoSection2 from '../components/InfoSection2';
+import {
+  homeObjThree
+} from '../components/InfoSection2/Data';
 import {
   homeObjOne,
   homeObjTwo,
-  homeObjThree
 } from '../components/InfoSection/Data';
 import Services from '../components/Services';
 
@@ -25,7 +28,7 @@ function Home() {
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
       <Services />
-      <InfoSection {...homeObjThree} />
+      <InfoSection2 {...homeObjThree} />
       <Footer />
     </>
   );
