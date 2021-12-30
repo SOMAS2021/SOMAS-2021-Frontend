@@ -58,7 +58,7 @@ const InfoSection2 = ({
 
                 <InfoCards />
 
-                <BtnWrap style={{marginTop: '30px'}}>
+                <BtnWrap style={{marginTop: '30px', alignItems: 'center', justifyContent: 'center'}}>
                   <Button
                     to='home'
                     smooth={true}
