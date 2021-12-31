@@ -21,19 +21,19 @@ export const homeObjTwo = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Unlimited Access',
-  headline: 'Login to your account at any time',
+  topLine: 'The Aim for SOMAS 2021',
+  headline: 'Specify, Design and Implement',
   description:
-    'We have you covered no matter where you are located. All you need is an internet connection and a phone or computer.',
+    'A self-organising multi-agent system that can solve a large-scale, long-term, inter-dependent collective action problem, using a range of techniques that have been presented in the lectures.',
   buttonLabel: 'Learn More',
   imgStart: true,
-  img: require('../../images/svg-2.svg'),
+  img: require('../../images/tower4.jpg'),
   alt: 'Piggybank',
   dark: false,
   primary: false,
   darkText: true
 };
-
+/*
 export const homeObjThree = {
   id: 'signup',
   lightBg: true,
@@ -51,3 +51,4 @@ export const homeObjThree = {
   primary: false,
   darkText: true
 };
+*/

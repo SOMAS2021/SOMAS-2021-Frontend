@@ -4,27 +4,30 @@ import {
   InfoContainer,
   InfoWrapper,
   InfoRow,
-  Column1,
-  Column2,
   TextWrapper,
   TopLine,
   Heading,
   Subtitle,
   BtnWrap,
-  ImgWrap,
-  Img
-} from './InfoElements';
 
-const InfoSection = ({
+} from '../InfoSection2/InfoElements';
+import InfoTabs from '../InfoSection2/InfoTabs';
+import InfoCards from '../InfoSection2/InfoCard';
+
+const InfoSection2 = ({
   lightBg,
-  imgStart,
   topLine,
+  topLine2,
+  topLine3,
   lightText,
   headline,
+  headline2,
+  headline3,
   description,
+  description2,
+  description3,
+  description4,
   buttonLabel,
-  img,
-  alt,
   id,
   primary,
   darkText,
@@ -36,13 +39,26 @@ const InfoSection = ({
     <>
       <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
-          <InfoRow imgStart={imgStart}>
-            <Column1>
+          <InfoRow >
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
-                <BtnWrap>
+                <Subtitle darkText={darkText}>{description2}</Subtitle>
+                <Subtitle darkText={darkText}>{description3}</Subtitle>
+                <Subtitle darkText={darkText}>{description4}</Subtitle>
+        
+                <TopLine style={{marginTop: '40px'}}>{topLine2}</TopLine>
+                <Heading lightText={lightText}>{headline2}</Heading>
+
+                <InfoTabs />
+
+                <TopLine style={{marginTop: '40px'}}>{topLine3}</TopLine>
+                <Heading lightText={lightText}>{headline3}</Heading>
+
+                <InfoCards />
+
+                <BtnWrap style={{marginTop: '30px', alignItems: 'center', justifyContent: 'center'}}>
                   <Button
                     to='home'
                     smooth={true}
@@ -58,12 +74,6 @@ const InfoSection = ({
                   </Button>
                 </BtnWrap>
               </TextWrapper>
-            </Column1>
-            <Column2>
-              <ImgWrap >
-                <Img src={img} alt={alt} />
-              </ImgWrap>
-            </Column2>
           </InfoRow>
         </InfoWrapper>
       </InfoContainer>
@@ -71,4 +81,4 @@ const InfoSection = ({
   );
 };
 
-export default InfoSection;
+export default InfoSection2;
