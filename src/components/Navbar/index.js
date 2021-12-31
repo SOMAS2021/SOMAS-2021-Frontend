@@ -39,7 +39,8 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo onClick={toggleHome} to='/'>
-              dolla
+            SOMAS2021
+            <i class="devicon-electron-original"></i>
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
