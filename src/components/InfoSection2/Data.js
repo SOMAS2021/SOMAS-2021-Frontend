@@ -50,7 +50,7 @@ export const homeObjThree = {
   topLine2: 'Residents in the Tower',
   headline2: "Each Team's Agent Type",
   topLine3: 'Implemented Functions within the System',
-  headline3: "Important Components of SOMAS",
+  headline3: "Important Simulation Components",
   dark: false,
   primary: false,
   darkText: true
