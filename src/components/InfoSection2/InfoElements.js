@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
   color: #fff;
-  background: ${({ lightBg }) => (lightBg ? '#f9f9f9/*linear-gradient(90deg, rgb(70, 19, 19) 0%,#F0E5E5,#F0E5E5,#F0E5E5,#F0E5E5,#F0E5E5 ,#F0E5E5 ,rgb(70, 19, 19) 100%);*/' : '#010606')};
+  background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -12,7 +12,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
   display: flex;
   z-index: 1;
-  height: 2000px;
+  height: 2250px;
   width: 100%;
   max-width: 2000px;
   margin-right: auto;

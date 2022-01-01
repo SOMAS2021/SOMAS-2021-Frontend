@@ -18,36 +18,36 @@ export default function LabTabs() {
     <div style={{display: 'flex',
     alignItems: 'center',
     justifyContent: 'center'}}>
-        <Box sx={{ width: '100%', typography: 'body1', boxShadow: "2px 5px 2px #9E9E9E" }}>
+        <Box sx={{ width: '100%', typography: 'body1', boxShadow: "2px 5px 5px 2px #9E9E9E" }}>
         <TabContext value={value}>
-            <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+            <Box sx={{ borderBottom: 1, borderColor: 'green' }}>
             
                 <Tabs
                     value={value}
                     onChange={handleChange}
                     variant = "fullWidth"
-                    textColor="secondary"
-                    indicatorColor="secondary"
+                    textColor="primary"
+                    indicatorColor="primary"
                     aria-label="secondary tabs example"
                     centered
                 >
-                        <Tab style={{/*"color": "red",*/ "backgroundColor": 'gray'}} label="Agent 1" value="1" />
-                        <Tab style={{"backgroundColor": 'gray'}} label="Agent 2" value="2" />
-                        <Tab style={{"backgroundColor": 'gray'}} label="Agent 3" value="3" />
-                        <Tab style={{"backgroundColor": 'gray'}} label="Agent 4" value="4" />
-                        <Tab style={{"backgroundColor": 'gray'}} label="Agent 5" value="5" />
-                        <Tab style={{"backgroundColor": 'gray'}} label="Agent 6" value="6" />
+                        <Tab style={{"backgroundColor": 'lightgray', color: 'green'}} label="Agent 1" value="1" />
+                        <Tab style={{"backgroundColor": 'lightgray', color: 'green'}} label="Agent 2" value="2" />
+                        <Tab style={{"backgroundColor": 'lightgray', color: 'green'}} label="Agent 3" value="3" />
+                        <Tab style={{"backgroundColor": 'lightgray', color: 'green'}} label="Agent 4" value="4" />
+                        <Tab style={{"backgroundColor": 'lightgray', color: 'green'}} label="Agent 5" value="5" />
+                        <Tab style={{"backgroundColor": 'lightgray', color: 'green'}} label="Agent 6" value="6" />
                     </Tabs>
             
             </Box>
-            <TabPanel style={{"backgroundColor": 'lightgray', color: "black"}} value="1">
+            <TabPanel style={{"backgroundColor": 'white', color: "black"}} value="1">
             Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
             Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
             Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
             Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
             Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents
             </TabPanel>
-            <TabPanel style={{"backgroundColor": 'lightgray', color: "black"}} value="2">
+            <TabPanel style={{"backgroundColor": 'white', color: "black"}} value="2">
 
             Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
             Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
@@ -55,7 +55,7 @@ export default function LabTabs() {
             Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
             Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
             </TabPanel>
-            <TabPanel  style={{"backgroundColor": 'lightgray', color: "black"}} value="3">
+            <TabPanel  style={{"backgroundColor": 'white', color: "black"}} value="3">
             
             As far as our agent strategy goes, we have created an agent that adapts to the circumstances. Every day, 
             depending on their hunger (HP), their morality and mood will change in `changeNewDay(agent a)`. If that day
@@ -63,7 +63,7 @@ export default function LabTabs() {
             as restarting some knowledge variables like who their neighbours are. Every tick we try to eat and calculate 
             how much the agent would like to eat with the takeFoodCalculation function. If it manages to eat, decisions are reset. 
             </TabPanel>
-            <TabPanel style={{"backgroundColor": 'lightgray', color: "black"}}  value="4">
+            <TabPanel style={{"backgroundColor": 'white', color: "black"}}  value="4">
             
             Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
             Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
@@ -71,7 +71,7 @@ export default function LabTabs() {
             Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
             Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
             </TabPanel>
-            <TabPanel  style={{"backgroundColor": 'lightgray', color: "black"}} value="5">
+            <TabPanel  style={{"backgroundColor": 'white', color: "black"}} value="5">
             
             The group 5 agent operates on the basis that, upon entering the tower, the need to ensure their own survival is their
             only aim, and should maximise their own hp whenever given the opportunity to do so. This situation can be thought
@@ -87,7 +87,7 @@ export default function LabTabs() {
             in the short term in order to give the best chance of survival for all agents, trusting others to do the same upon 
             reshuffling.
             </TabPanel>
-            <TabPanel  style={{"backgroundColor": 'lightgray', color: "black"}} value="6">
+            <TabPanel  style={{"backgroundColor": 'white', color: "black"}} value="6">
             
             Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
             Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
