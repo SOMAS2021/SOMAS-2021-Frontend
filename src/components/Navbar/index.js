@@ -55,7 +55,7 @@ const Navbar = ({ toggle }) => {
                   exact='true'
                   offset={-80}
                 >
-                  Play Animation
+                  Overview
                 </NavLinks>
               </NavItem>
               <NavItem>

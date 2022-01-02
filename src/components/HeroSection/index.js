@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from '../ButtonElements';
 
-import Video from '../../videos/video.mp4';
+import Video from '../../videos/platform.mov';
 import {
   HeroContainer,
   HeroBg,
@@ -23,7 +23,7 @@ function HeroSection() {
   return (
     <HeroContainer id='home'>
       <HeroBg>
-        <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4' />
+        <VideoBg playsInline autoPlay loop muted src={Video} type='video/mov' />
       </HeroBg>
       <HeroContent>
         <HeroH1>Self Organising Multi-Agent Systems</HeroH1>

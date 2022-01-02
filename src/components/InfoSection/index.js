@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button } from '../ButtonElements';
-import {Video} from '../../videos/platform.mov';
 import {
   InfoContainer,
   InfoWrapper,
