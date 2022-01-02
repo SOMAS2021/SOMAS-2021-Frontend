@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from '../ButtonElements';
 
-import Video from '../../videos/video.mp4';
+import Video from '../../videos/platform.mov';
 import {
   HeroContainer,
   HeroBg,
@@ -23,13 +23,12 @@ function HeroSection() {
   return (
     <HeroContainer id='home'>
       <HeroBg>
-        <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4' />
+        <VideoBg playsInline autoPlay loop muted src={Video} type='video/mov' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Virtual Banking Made Easy</HeroH1>
+        <HeroH1>Self Organising Multi-Agent Systems</HeroH1>
         <HeroP>
-          Sign up for a new account today and receive $250 in credit towards
-          your next payment.
+          THE PLATFORM PLAYING PLATFORM
         </HeroP>
         <HeroBtnWrapper>
           <Button
@@ -44,7 +43,7 @@ function HeroSection() {
             onMouseEnter={onHover}
             onMouseLeave={onHover}
           >
-            Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+            New Run {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

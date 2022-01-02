@@ -68,9 +68,9 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-              dolla
+              SOMAS2021
             </SocialLogo>
-            <WebsiteRights>dolla © 2020 All rights reserved.</WebsiteRights>
+            <WebsiteRights>Icons made by <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev"> Vitaly Gorbachev </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></WebsiteRights>
             <SocialIcons>
               <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />

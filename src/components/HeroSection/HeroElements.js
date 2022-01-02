@@ -80,8 +80,8 @@ export const HeroH1 = styled.h1`
 `;
 
 export const HeroP = styled.p`
-  margin-top: 24px;
-  color: #fff;
+  margin-top: 20px;
+  color: #01BF71;
   font-size: 24px;
   text-align: center;
   max-width: 600px;
@@ -95,9 +95,9 @@ export const HeroP = styled.p`
   }
 `;
 export const HeroBtnWrapper = styled.div`
-  margin-top: 32px;
+  margin-top: 25px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   align-items: center;
 `;
 

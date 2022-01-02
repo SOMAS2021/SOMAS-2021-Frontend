@@ -55,7 +55,7 @@ const Navbar = ({ toggle }) => {
                   exact='true'
                   offset={-80}
                 >
-                  About
+                  Overview
                 </NavLinks>
               </NavItem>
               <NavItem>
