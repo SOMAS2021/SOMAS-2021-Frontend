@@ -6,8 +6,8 @@ export const homeObjOne = {
   topLine: 'Overview',
   // headline: 'Unlimited Transactions with zero fees',
   description:
-    'The aim of this coursework is to build a self-organising multi-agent system that can solve a large-scale, long-term, inter-dependent collective action problem, using a range of techniques that have been presented in the lectures. To find out more, go the about section below or click the link to the report here:',
-  buttonLabel: 'Get Started',
+    'The aim of this coursework is to build a self-organising multi-agent system that can solve a large-scale, long-term, inter-dependent collective action problem, using a range of techniques that have been presented in the lectures. To simulate a new scenario or visualisation, click `New Run` above. To find out more, go the about section below or click the link to the report here:',
+  buttonLabel: 'Report',
   imgStart: false,
   img: require('../../images/people-2.png'),
   alt: 'People',

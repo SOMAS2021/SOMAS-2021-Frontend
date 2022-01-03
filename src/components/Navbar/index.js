@@ -84,7 +84,11 @@ const Navbar = ({ toggle }) => {
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to='/signin'> New Run/Visualisation</NavBtnLink>
+              <NavBtnLink            
+              target='_blank'
+              aria-label='Platform Dashboard'
+              href='https://somas-2021-568r2.ondigitalocean.app/'> New Run
+              </NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>
