@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   FaGithub,
-  FaPager
 } from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
 import {
@@ -80,14 +79,14 @@ const Footer = () => {
               </SocialIconLink> */}
               <SocialIconLink
                 target='_blank'
-                aria-label='Twitter'
-                href='//www.twitter.com/briandesignz'
+                aria-label='Github'
+                href='https://github.com/SOMAS2021'
               >
                 <FaGithub />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
+              {/* <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
                 <FaPager />
-              </SocialIconLink>
+              </SocialIconLink> */}
             </SocialIcons>
           </SocialMediaWrap>
         </SocialMedia>
