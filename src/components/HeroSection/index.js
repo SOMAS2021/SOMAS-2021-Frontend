@@ -32,7 +32,6 @@ function HeroSection() {
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            to='signup'
             smooth={true}
             duration={500}
             spy={true}
@@ -42,6 +41,9 @@ function HeroSection() {
             dark='true'
             onMouseEnter={onHover}
             onMouseLeave={onHover}
+            target='_blank'
+            aria-label='Platform Dashboard'
+            href='https://somas-2021-568r2.ondigitalocean.app/'
           >
             New Run {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>

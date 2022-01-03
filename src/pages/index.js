@@ -10,7 +10,6 @@ import {
 } from '../components/InfoSection2/Data';
 import {
   homeObjOne,
-  homeObjTwo,
 } from '../components/InfoSection/Data';
 import Services from '../components/Services';
 
@@ -26,7 +25,6 @@ function Home() {
       <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} />
       <Services />
       <InfoSection2 {...homeObjThree} />
       <Footer />
