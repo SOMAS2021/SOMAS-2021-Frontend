@@ -89,7 +89,7 @@ export const ServicesH3 = styled.h3`
 `;
 
 export const ServicesB = styled.b`
-  margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 1rem;
   text-align: center;
   color: #fff;
