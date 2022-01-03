@@ -9,17 +9,18 @@ import {
   ServicesCard,
   ServicesIcon,
   ServicesH2,
-  //ServicesH3,
+  ServicesB,
   ServicesP
 } from './ServicesElements';
-
 
 const Services = () => {
   return (
     <ServicesContainer id='services'>
       <ServicesH1>Problem Breakdown</ServicesH1>
+      <ServicesB>The coursework has been broken down into 3 main sections: The Tower, The Agents and The System. 
+      Further details for each section can be found below or in the Report.</ServicesB>
       <ServicesWrapper>
-        <ServicesCard>
+         <ServicesCard >
           <ServicesIcon src={Icon1} />
           <ServicesH2>The Tower</ServicesH2>
           <ServicesP>
@@ -28,7 +29,7 @@ const Services = () => {
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>Agent Types</ServicesH2>
+          <ServicesH2>The Agents</ServicesH2>
           <ServicesP>
             All the different types of implemented Agents avaliable to enter the tower.
           </ServicesP>
