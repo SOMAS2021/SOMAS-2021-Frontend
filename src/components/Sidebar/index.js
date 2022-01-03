@@ -27,9 +27,9 @@ const Sidebar = ({ isOpen, toggle }) => {
             exact='true'
             offset={-80}
           >
-            About
+            Overview
           </SidebarLink>
-          <SidebarLink
+          {/* <SidebarLink
             to='discover'
             onClick={toggle}
             smooth={true}
@@ -39,7 +39,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             offset={-80}
           >
             Discover
-          </SidebarLink>
+          </SidebarLink> */}
           <SidebarLink
             to='services'
             onClick={toggle}
@@ -49,7 +49,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             exact='true'
             offset={-80}
           >
-            Services
+            Problem Breakdown
           </SidebarLink>
           <SidebarLink
             to='signup'
@@ -60,11 +60,14 @@ const Sidebar = ({ isOpen, toggle }) => {
             exact='true'
             offset={-80}
           >
-            Sign Up
+            About
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to='/signin'>Sign In</SidebarRoute>
+          <SidebarRoute 
+            target='_blank'
+            aria-label='Platform Dashboard'
+            href='https://somas-2021-568r2.ondigitalocean.app/'>New Run</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

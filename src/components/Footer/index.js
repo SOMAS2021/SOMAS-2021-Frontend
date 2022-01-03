@@ -1,20 +1,12 @@
 import React from 'react';
 import {
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaTwitter,
-  FaLinkedin
+  FaGithub,
+  FaPager
 } from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
 import {
   FooterContainer,
   FooterWrap,
-  FooterLinksContainer,
-  FooterLinksWrapper,
-  FooterLinkItems,
-  FooterLinkTitle,
-  FooterLink,
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,
@@ -30,7 +22,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrap>
-        <FooterLinksContainer>
+        {/* <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
@@ -64,7 +56,7 @@ const Footer = () => {
               <FooterLink to='/'>Twitter</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
-        </FooterLinksContainer>
+        </FooterLinksContainer> */}
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
@@ -72,7 +64,7 @@ const Footer = () => {
             </SocialLogo>
             <WebsiteRights>Icons made by <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev"> Vitaly Gorbachev </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+              {/* <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>
               <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
@@ -85,16 +77,16 @@ const Footer = () => {
                 rel='noopener noreferrer'
               >
                 <FaYoutube />
-              </SocialIconLink>
+              </SocialIconLink> */}
               <SocialIconLink
                 target='_blank'
                 aria-label='Twitter'
                 href='//www.twitter.com/briandesignz'
               >
-                <FaTwitter />
+                <FaGithub />
               </SocialIconLink>
               <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
-                <FaLinkedin />
+                <FaPager />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>
