@@ -86,11 +86,11 @@ function InfoCards() {
                     Agents within the System are able to communicate to other agents on either the floor above or below. Available 
                     to all of these Agents is a method of communication called Messages.  Within the simulation, a message passing common 
                     language has been defined and messages types have been divided into 4 categories. These are as follows: ‘AskMessage’:
-                     message for inquiring the state of a neighbouring agent, ‘StateMessage’: message for announcing something about the state 
-                     of an agent, ‘RequestMessage’: message for requesting something from a neighbouring agent and ‘ResponseMessage’: message 
-                     for indicating an agreement or disagreement to a previous RequestMessage.  Something to note that different agent’s types 
-                     can have customised responses each of these message types, including ignoring entirely or extracting information from sent
-                      messages.
+                    message for inquiring the state of a neighbouring agent, ‘StateMessage’: message for announcing something about the state 
+                    of an agent, ‘RequestMessage’: message for requesting something from a neighbouring agent and ‘ResponseMessage’: message 
+                    for indicating an agreement or disagreement to a previous RequestMessage.  Something to note that different agent’s types 
+                    can have customised responses each of these message types, including ignoring entirely or extracting information from sent
+                    messages.
                     </InfoP>
                   </InfoCard>
                   
