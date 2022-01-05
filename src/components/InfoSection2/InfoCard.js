@@ -83,7 +83,7 @@ function InfoCards() {
                     <InfoH2 style={{color: 'black'}}>Communications & Messages</InfoH2>
                     <InfoP style={{color: 'black'}}>
 
-                    Agents within the System are able to communicate to other agents on either the floor above or below and available 
+                    Agents within the System are able to communicate to other agents on either the floor above or below. Available 
                     to all of these Agents is a method of communication called Messages.  Within the simulation, a message passing common 
                     language has been defined and messages types have been divided into 4 categories. These are as follows: ‘AskMessage’:
                      message for inquiring the state of a neighbouring agent, ‘StateMessage’: message for announcing something about the state 
@@ -101,16 +101,15 @@ function InfoCards() {
                     <InfoH2 style={{color: 'black'}}>Treaties</InfoH2>
                     <InfoP style={{color: 'black'}}>
 
-                      Treaties
+                    Given both the Agents’ self-interested natures and the economy of scarcity enforcing that all agents cannot be satiated on one given turn, 
+                    we draw the conclusion that, without any self-organising mechanisms, it is impossible to reach a steady state in the Tower. Through 
+                    implementing unconstrained strategies, Agents will inevitably act to maximise personal wealth without considering the threats to collectivism. 
+                    To mitigate this, we offer Agents the ability to form treaties with one another to simulate localised governance. These treaties have a variety 
+                    of fields that are passed as messages between floors, an example of which may be requesting that the neighbouring agent leaves a certain amount 
+                    of food on the platform at the end of their turn.
                     </InfoP>
                   </InfoCard>
-                  <InfoCard>
-                    <InfoH2 style={{color: 'black'}}>Self-organising</InfoH2>
-                    <InfoP style={{color: 'black'}}>
-
-                      Self-organising
-                    </InfoP>
-                  </InfoCard>
+                  
             </InfoCardWrapper>
         </div>
     )
