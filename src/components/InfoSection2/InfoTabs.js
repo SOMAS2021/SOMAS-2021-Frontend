@@ -49,11 +49,14 @@ export default function LabTabs() {
             </TabPanel>
             <TabPanel style={{"backgroundColor": 'white', color: "black"}} value="2">
 
-            Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
-            Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
-            Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
-            Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
-            Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
+            Team 2's agent design is based on reinforcement learning. We set the agent to be in one of three states depending on 
+            the hunger level. The agent has three actions it can perform; take no food, satisfice itself with food and satiate with 
+            food. The three actions are given probabilities depending on the state the agent is in. The important part of our algorithm 
+            is the reward calculation, which determines the likelihood of an agent choosing a specific action. This reward calculation 
+            changes depending on the selfishness value of the agent, so the agent will prioritise itself as it becomes more selfish. 
+            Reinforcement is introduced by the saving ratio which is included in the reward calculation. The saving ratio is defined as 
+            number of agents saved / number of agents who would have died. The hope is then that the actions which are successful in the 
+            collective and personal goal will be chosen more often.
             </TabPanel>
             <TabPanel  style={{"backgroundColor": 'white', color: "black"}} value="3">
             
@@ -89,11 +92,15 @@ export default function LabTabs() {
             </TabPanel>
             <TabPanel  style={{"backgroundColor": 'white', color: "black"}} value="6">
             
-            Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
-            Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
-            Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
-            Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
-            Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
+            The group 7 agent is built with three different parameter types. The first one is their personality makeup which determines 
+            default behaviour and mood. Each agent is initialised with a score between 0 to 100 for the Big 5 personality traits. The traits include 
+            openness, conscientiousness, extraversion, agreeableness and neuroticism. These traits are thought to be the inate nature of the  agent 
+            and do not get alterted throughout their life. They alter the behaviour of the agent in different ways when a certain scenario occurs. 
+            The second parameter type is the mood of the agent. At the moment we are working with two conflicting moods of greediness and kindness. 
+            These are initialised by their agreeableness value and then altered by various environmental factors. The last parameter type is the memory 
+            of the agent. Here the agent stores data to track what they have gone through so far. For example what floors they have been on and their 
+            opinion of other agents. Each day the greediness and kindness will be altered depending on what has happened so far and the agent will choose 
+            to take "100 - kindness + greediness" amount of food.
             </TabPanel>
         </TabContext>
         </Box>
