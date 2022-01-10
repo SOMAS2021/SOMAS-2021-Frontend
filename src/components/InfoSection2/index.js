@@ -27,6 +27,7 @@ const InfoSection2 = ({
   description2,
   description3,
   description4,
+  description5,
   buttonLabel,
   id,
   primary,
@@ -50,11 +51,12 @@ const InfoSection2 = ({
         
                 <TopLine style={{marginTop: '40px'}}>{topLine2}</TopLine>
                 <Heading lightText={lightText}>{headline2}</Heading>
-
+                
                 <InfoTabs />
-
+                <Subtitle style={{marginTop: '30px'}} darkText={darkText}>{description5}</Subtitle>
                 <TopLine style={{marginTop: '40px'}}>{topLine3}</TopLine>
                 <Heading lightText={lightText}>{headline3}</Heading>
+                
 
                 <InfoCards />
 

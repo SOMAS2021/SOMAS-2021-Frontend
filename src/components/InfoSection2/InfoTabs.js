@@ -31,23 +31,16 @@ export default function LabTabs() {
                     aria-label="secondary tabs example"
                     centered
                 >
-                        <Tab style={{"backgroundColor": 'lightgray', color: 'green'}} label="Agent 1" value="1" />
-                        <Tab style={{"backgroundColor": 'lightgray', color: 'green'}} label="Agent 2" value="2" />
-                        <Tab style={{"backgroundColor": 'lightgray', color: 'green'}} label="Agent 3" value="3" />
-                        <Tab style={{"backgroundColor": 'lightgray', color: 'green'}} label="Agent 4" value="4" />
-                        <Tab style={{"backgroundColor": 'lightgray', color: 'green'}} label="Agent 5" value="5" />
-                        <Tab style={{"backgroundColor": 'lightgray', color: 'green'}} label="Agent 6" value="6" />
+                        <Tab style={{"backgroundColor": 'lightgray', color: 'green'}} label="Agent 2" value="1" />
+                        <Tab style={{"backgroundColor": 'lightgray', color: 'green'}} label="Agent 3" value="2" />
+                        <Tab style={{"backgroundColor": 'lightgray', color: 'green'}} label="Agent 4" value="3" />
+                        <Tab style={{"backgroundColor": 'lightgray', color: 'green'}} label="Agent 5" value="4" />
+                        <Tab style={{"backgroundColor": 'lightgray', color: 'green'}} label="Agent 6" value="5" />
+                        <Tab style={{"backgroundColor": 'lightgray', color: 'green'}} label="Agent 7" value="6" />
                     </Tabs>
             
             </Box>
             <TabPanel style={{"backgroundColor": 'white', color: "black"}} value="1">
-            Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
-            Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
-            Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
-            Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
-            Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents
-            </TabPanel>
-            <TabPanel style={{"backgroundColor": 'white', color: "black"}} value="2">
 
             Team 2's agent design is based on reinforcement learning. We set the agent to be in one of three states depending on 
             the hunger level. The agent has three actions it can perform; take no food, satisfice itself with food and satiate with 
@@ -58,23 +51,27 @@ export default function LabTabs() {
             number of agents saved / number of agents who would have died. The hope is then that the actions which are successful in the 
             collective and personal goal will be chosen more often.
             </TabPanel>
-            <TabPanel  style={{"backgroundColor": 'white', color: "black"}} value="3">
+            <TabPanel  style={{"backgroundColor": 'white', color: "black"}} value="2">
             
-            As far as our agent strategy goes, we have created an agent that adapts to the circumstances. Every day, 
+            As far as group 3's agent strategy goes, we have created an agent that adapts to the circumstances. Every day, 
             depending on their hunger (HP), their morality and mood will change in `changeNewDay(agent a)`. If that day
             there has been a reshuffling, the mood will also change depending on the new floor number we are in as well 
             as restarting some knowledge variables like who their neighbours are. Every tick we try to eat and calculate 
             how much the agent would like to eat with the takeFoodCalculation function. If it manages to eat, decisions are reset. 
             </TabPanel>
-            <TabPanel style={{"backgroundColor": 'white', color: "black"}}  value="4">
+            <TabPanel style={{"backgroundColor": 'white', color: "black"}}  value="3">
             
-            Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
-            Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
-            Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
-            Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
-            Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents Descritption of Agents 
+            Team 4's final strategy is an evolutionary algorithm that optimises for FoodToEat (amount of food to eat) and WaitProbability 
+            (whether to not eat for that particular day). We have 3 different configurations for FoodToEat and WaitProbability depending on 
+            our selfishness level - selfish, neutral or selfless. We switch between these configurations as our Personality changes. The agent 
+            selfishness is calculated based on the Global Trust that the agent has for the tower. If other agents in the tower are perceived 
+            (eg. through message passing) to be acting selfishly then so do we. We also use a Cravings parameter to decide whether we should 
+            wait to eat on a certain day. As Cravings increases, our WaitProbability decreases, and vice versa.
+            Our agent strategy tries to move towards social utility where the number of total deaths is low. This can be seen by running the 
+            simulations with only Team4 agents. We can see that the number of deaths at the start are 0 and continue to stay extremely low as 
+            the simulation parameters such as number of days are increased.
             </TabPanel>
-            <TabPanel  style={{"backgroundColor": 'white', color: "black"}} value="5">
+            <TabPanel  style={{"backgroundColor": 'white', color: "black"}} value="4">
             
             The group 5 agent operates on the basis that, upon entering the tower, the need to ensure their own survival is their
             only aim, and should maximise their own hp whenever given the opportunity to do so. This situation can be thought
@@ -89,6 +86,30 @@ export default function LabTabs() {
             do so and survive. A tower of just our agents would require those at the top to be willing to decrease its own satisfaction 
             in the short term in order to give the best chance of survival for all agents, trusting others to do the same upon 
             reshuffling.
+            </TabPanel>
+            <TabPanel style={{"backgroundColor": 'white', color: "black"}} value="5">
+            Group 6’s agent design was focused on approximating realistic human nature and behaviour.
+            We attempted this approximation by defining an initial basic concept and then iteratively 
+            adding more complexity to the agent in consecutive steps. Our initial basic concept consists 
+            of defining the possible social motives that our agent can have: Altruistic, Collectivist, 
+            Selfish, and Narcissist. 
+            Given that an agent is initially assigned a social motive, we also allow the agent to change 
+            their social motive based on their circumstances, bringing forth the interesting duality of 
+            “nature vs nurture”. For example, an agent may “naturally” / “genetically” be born a 
+            collectivist but may be incentivised to act selfishly if they become desperate due to lack of 
+            food. The factors that are influential in changing an agent’s social motive and behaviour 
+            include current HP and current floor.
+            We additionally introduce the concept of willingness to change, with which we quantify how 
+            resistant an agent is to altering their behaviour. However, even though an agent might be 
+            stubborn/resistant to change, they are still, given a long enough period, able to go from a 
+            narcissist to an altruist. To counteract this prior to the start of the game we define how far an 
+            agent can steer away from their “genetic” or “natural” initial state.
+            Even though social motives are defined using a continuous spectrum, our agent’s 
+            consumption and communication strategies were defined on bins along this spectrum, with 
+            one bin for each of the four discrete social motives. As social motive goes from Altruist 
+            towards Narcissist individual utility is valued increasingly more than collective utility. With 
+            regards to strategy, food consumption increases while cooperation-aimed communication 
+            decreases.
             </TabPanel>
             <TabPanel  style={{"backgroundColor": 'white', color: "black"}} value="6">
             

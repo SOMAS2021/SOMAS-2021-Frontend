@@ -49,6 +49,7 @@ export const homeObjThree = {
   buttonLabel: 'Start Now',
   topLine2: 'Residents in the Tower',
   headline2: "Each Team's Agent Type",
+  description5: "NB Team 1 implemented a basic agent strategy, which can be found on the New Run page.",
   topLine3: 'Implemented Functions within the System',
   headline3: "Important Simulation Components",
   dark: false,
