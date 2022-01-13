@@ -44,7 +44,9 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
-                    to='home'
+                    target='_blank'
+                    aria-label='Github Report'
+                    href='https://github.com/SOMAS2021/SOMAS-Final-Report'
                     smooth={true}
                     duration={500}
                     spy={true}

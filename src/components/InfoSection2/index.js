@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from '../ButtonElements';
 import {
   InfoContainer,
   InfoWrapper,
@@ -8,7 +7,6 @@ import {
   TopLine,
   Heading,
   Subtitle,
-  BtnWrap,
 
 } from '../InfoSection2/InfoElements';
 import InfoTabs from '../InfoSection2/InfoTabs';
@@ -59,22 +57,6 @@ const InfoSection2 = ({
                 
 
                 <InfoCards />
-
-                <BtnWrap style={{marginTop: '30px', alignItems: 'center', justifyContent: 'center'}}>
-                  <Button
-                    to='home'
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact='true'
-                    offset={-80}
-                    primary={primary ? 1 : 0}
-                    dark={dark ? 1 : 0}
-                    dark2={dark2 ? 1 : 0}
-                  >
-                    {buttonLabel}
-                  </Button>
-                </BtnWrap>
               </TextWrapper>
           </InfoRow>
         </InfoWrapper>
