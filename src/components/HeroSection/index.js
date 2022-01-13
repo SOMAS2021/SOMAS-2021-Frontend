@@ -28,7 +28,7 @@ function HeroSection() {
       <HeroContent>
         <HeroH1>Self Organising Multi-Agent Systems</HeroH1>
         <HeroP>
-          THE PLATFORM PLAYING PLATFORM
+          THE PLATFORM PLAYING PROBLEM
         </HeroP>
         <HeroBtnWrapper>
           <Button
